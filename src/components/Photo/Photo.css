@@ -3,6 +3,7 @@
     border: 2px solid aquamarine;
     margin: 10px;
     padding: 5px;
+    border-radius: 10px;
 }
 .photo img{
     width: 200px;

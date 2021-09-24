@@ -2,14 +2,14 @@
 import './Photo.css';
 
 const Photo = (props) => {
-    const {title,thumbnailUrl,id } = props.photo;
+    const {title,thumbnailUrl,albumId } = props.photo;
     //console.log(props.photo);
 
     return (
         <div className="photo">
             <h2>Title: {title}</h2>
             <img src={thumbnailUrl} alt="" />
-            <p>Id: {id}</p>
+            <p>AlbumId: {albumId}</p>
         </div>
     );
 };
