@@ -1,10 +1,15 @@
-import React from 'react';
+
+import './Photo.css';
 
 const Photo = (props) => {
+    const {title,thumbnailUrl,id } = props.photo;
+    //console.log(props.photo);
+
     return (
-        <div>
-           <h2>Title: {props.title}</h2>
-           <p>Id: {props.id}</p>
+        <div className="photo">
+            <h2>Title: {title}</h2>
+            <img src={thumbnailUrl} alt="" />
+            <p>Id: {id}</p>
         </div>
     );
 };

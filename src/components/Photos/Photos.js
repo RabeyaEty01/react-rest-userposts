@@ -13,8 +13,15 @@ const Photos = () => {
     return (
         <div>
             <h1>Hello from Photos: {photos.length}</h1>
+
+           {/*  {
+                photos.map(photo=>console.log(photo))
+            } */}
+
             {
-                photos.map(photo=><Photo title={photo.title} id={photo.id}></Photo>)
+                photos.map(photo=><Photo 
+                    photo={photo}
+                    ></Photo>)
             }
         </div>
     );
