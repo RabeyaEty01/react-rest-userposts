@@ -6,8 +6,8 @@ const Photo = (props) => {
     //console.log(props.photo);
 
     return (
-        <div className="photo">
-            <h2>Title: {title}</h2>
+        <div className="photo bg-secondary">
+            <h2 className="text-warning">Title: {title}</h2>
             <img src={thumbnailUrl} alt="" />
             <p>AlbumId: {albumId}</p>
         </div>

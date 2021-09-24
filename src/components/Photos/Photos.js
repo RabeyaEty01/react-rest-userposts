@@ -5,7 +5,7 @@ import './Photos.css';
 const Photos = () => {
     const [photos, setPhotos] = useState([]);
     useEffect(() =>
-        fetch('http://jsonplaceholder.typicode.com/photos')
+        fetch('https://jsonplaceholder.typicode.com/photos')
             .then(res => res.json())
             .then(data => setPhotos(data))
 
