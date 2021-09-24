@@ -1,17 +1,39 @@
 import './App.css';
-import Header from './components/Header/Header';
 import Photos from './components/Photos/Photos';
-
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Photos></Photos>
-      
+    <Photos></Photos>
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 
 function Photos() {
